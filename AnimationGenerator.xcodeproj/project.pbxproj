@@ -84,17 +84,49 @@
 		CB3223E926828CAD00394672 /* AnimationGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				CB652F552683B3AC0098F1A8 /* Storyboards */,
+				CB652F542683B39B0098F1A8 /* Resources */,
+				CB652F532683B38D0098F1A8 /* Models */,
+				CB652F522683B37C0098F1A8 /* Controllers */,
 				CB3223EA26828CAD00394672 /* AppDelegate.swift */,
 				CB3223EC26828CAD00394672 /* SceneDelegate.swift */,
-				CB3223EE26828CAD00394672 /* MainViewController.swift */,
-				CB3223F026828CAD00394672 /* Main.storyboard */,
-				CB3223F626828CAE00394672 /* Assets.xcassets */,
-				CB3223F826828CAE00394672 /* LaunchScreen.storyboard */,
 				CB3223FB26828CAE00394672 /* Info.plist */,
 				CB3223F326828CAD00394672 /* AnimationGenerator.xcdatamodeld */,
-				CB913CF526838B5C001A669E /* Animation.swift */,
 			);
 			path = AnimationGenerator;
+			sourceTree = "<group>";
+		};
+		CB652F522683B37C0098F1A8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB3223EE26828CAD00394672 /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CB652F532683B38D0098F1A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB913CF526838B5C001A669E /* Animation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CB652F542683B39B0098F1A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB3223F626828CAE00394672 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CB652F552683B3AC0098F1A8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CB3223F026828CAD00394672 /* Main.storyboard */,
+				CB3223F826828CAE00394672 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
